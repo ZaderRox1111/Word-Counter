@@ -9,6 +9,8 @@ def main():
 
     # opens and reads the file that is selected
     f = open(selected_file)
+    # just to show that it has begun parsing through the text
+    print("Processing ...")
     words = f.read()
     f.close()
 
