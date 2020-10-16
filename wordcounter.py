@@ -18,7 +18,7 @@ def main():
     # does actions to the read file
     words = words.replace("\n", ' ')
     for badchar in unwanted:
-        words.replace(badchar, '')
+        words = words.replace(badchar, '')
     words = words.lower()
     words_list = words.split()
 
